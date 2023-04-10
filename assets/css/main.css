@@ -1246,8 +1246,8 @@ section {
   position: relative;
   border-top: 1px solid #f3f3f3;
   z-index: 2;
-  height: 135px;
-}
+  height: 150px;
+} 
 
 .portfolio .portfolio-wrap .portfolio-info-other {
   padding: 25px 20px;
