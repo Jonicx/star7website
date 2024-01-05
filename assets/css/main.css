@@ -1258,6 +1258,15 @@ section {
   height: 150px;
 }
 
+.portfolio .portfolio-wrap .portfolio-info-onGoing {
+  padding: 25px 20px;
+  background-color: #fff;
+  position: relative;
+  border-top: 1px solid #f3f3f3;
+  z-index: 2;
+  height: 160px;
+}
+
 .portfolio .portfolio-wrap .portfolio-info h4 {
   font-size: 18px;
   font-weight: 600;
@@ -1265,6 +1274,12 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-info-other h4 {
+  font-size: 18px;
+  font-weight: 600;
+  padding-right: 50px;
+}
+
+.portfolio .portfolio-wrap .portfolio-info-onGoing h4 {
   font-size: 18px;
   font-weight: 600;
   padding-right: 50px;
@@ -1280,11 +1295,20 @@ section {
   transition: 0.3s;
 }
 
+.portfolio .portfolio-wrap .portfolio-info-onGoing h4 a {
+  color: var(--color-default);
+  transition: 0.3s;
+}
+
 .portfolio .portfolio-wrap .portfolio-info h4 a:hover {
   color: var(--color-primary);
 }
 
 .portfolio .portfolio-wrap .portfolio-info-other h4 a:hover {
+  color: var(--color-primary);
+}
+
+.portfolio .portfolio-wrap .portfolio-info-onGoing h4 a:hover {
   color: var(--color-primary);
 }
 
@@ -1296,6 +1320,13 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-info-other p {
+  color: #6c757d;
+  font-size: 14px;
+  margin-bottom: 0;
+  padding-right: 50px;
+}
+
+.portfolio .portfolio-wrap .portfolio-info-onGoing p {
   color: #6c757d;
   font-size: 14px;
   margin-bottom: 0;
